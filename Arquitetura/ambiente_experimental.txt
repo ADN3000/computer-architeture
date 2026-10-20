@@ -1,0 +1,87 @@
+AMBIENTE EXPERIMENTAL
+Data: 2026-10-15 21:09:17 UTC
+
+=== SISTEMA OPERACIONAL ===
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+VERSION_ID="26.04"
+Linux 7.0.0-30-generic x86_64 GNU/Linux
+
+=== PROCESSADOR ===
+CPU(s):                                  20
+Model name:                              13th Gen Intel(R) Core(TM) i9-13900H
+Thread(s) per core:                      2
+Core(s) per socket:                      14
+Socket(s):                               1
+CPU max MHz:                             5400.0000
+NUMA node0 CPU(s):                       0-19
+
+=== MEMÓRIA ===
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       4.3Gi        17Gi       793Mi        10Gi        26Gi
+Swap:             0B          0B          0B
+	Size: 16 GB
+	Locator: Controller0-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Manufacturer: Micron Technology
+	Part Number: CT16G56C46S5.C8D    
+	Configured Memory Speed: 5200 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+	Size: 16 GB
+	Locator: Controller1-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Manufacturer: Micron Technology
+	Part Number: CT16G56C46S5.C8D    
+	Configured Memory Speed: 5200 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+=== ARMAZENAMENTO ===
+NAME        MODEL                       SIZE FSTYPE   LABEL       MOUNTPOINTS
+loop0                                   3.2G squashfs             /rofs
+loop1                                 562.7M squashfs             
+loop2                                 756.4M squashfs             
+loop3                                 614.5M squashfs             /snap/gnome-46-2404/164
+loop4                                  16.5M squashfs             /snap/firmware-updater/226
+loop5                                    20M squashfs             /snap/desktop-security-center/151
+loop6                                  66.8M squashfs             /snap/core24/1643
+loop7                                  91.7M squashfs             /snap/gtk-common-themes/1535
+loop8                                   1.5M squashfs             /snap/hwctl/123
+loop9                                 260.3M squashfs             /snap/firefox/8763
+loop10                                    4K squashfs             /snap/bare/5
+loop11                                 50.1M squashfs             /snap/snapd/27710
+loop12                                 18.8M squashfs             /snap/prompting-client/222
+loop13                                 11.8M squashfs             /snap/snap-store/1390
+loop14                                  402M squashfs             /snap/mesa-2404/1839
+loop15                                221.1M squashfs             /snap/thunderbird/1228
+loop16                                  828K squashfs             /snap/snapd-desktop-integration/391
+loop17                                111.4M squashfs             /snap/ubuntu-desktop-bootstrap/665
+sda         DT2000                     28.9G                      
+├─sda1                                 16.9G vfat     UBUNTU 26_0 /cdrom
+└─sda2                                   12G ext3     casper-rw   
+nvme0n1     Micron_3400_MTFDKBA512TFH 476.9G                      
+├─nvme0n1p1                             260M vfat     ESP         
+├─nvme0n1p2                              16M                      
+├─nvme0n1p3                           475.6G ntfs     Acer        
+└─nvme0n1p4                             1.1G ntfs                 
+Filesystem     Type     Size  Used Avail Use% Mounted on
+/cow           overlay   12G  3.1G  8.3G  28% /
+
+=== COMPILADOR C ===
+gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+
+=== PYTHON ===
+Python 3.14.4
+
+=== JAVA ===
+javac 25.0.4.1
+openjdk version "25.0.4.1" 2026-08-18
+OpenJDK Runtime Environment (build 25.0.4.1+1-1-26.04.4-Ubuntu)
+OpenJDK 64-Bit Server VM (build 25.0.4.1+1-1-26.04.4-Ubuntu, mixed mode, sharing)
+
+=== PERF ===
+perf version 7.0.14

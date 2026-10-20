@@ -1,0 +1,27 @@
+### ALVO_BARRA: MergeSort_Python ###
+
+ Performance counter stats for './merge_python.sh' (10 runs):
+
+             18.71 msec task-clock:u                                                            ( +-  0.81% )
+             1,860      page-faults                                                             ( +-  0.05% )
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+        70,783,041      cpu_core/cycles/                                                        ( +-  0.79% )
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+       188,616,045      cpu_core/instructions/                                                  ( +-  0.33% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0.00%)
+           144,690      cpu_core/cache-misses/                                                  ( +- 13.35% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0.00%)
+        48,501,512      cpu_core/L1-dcache-loads/                                               ( +-  0.24% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           700,612      cpu_core/L1-dcache-load-misses/                                         ( +-  0.35% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0.00%)
+           116,867      cpu_core/LLC-loads/                                                     ( +-  0.57% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0.00%)
+            21,443      cpu_core/LLC-load-misses/                                               ( +-  9.67% )
+     <not counted>      cpu_atom/branches/                                                      (0.00%)
+        32,308,986      cpu_core/branches/                                                      ( +-  0.25% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0.00%)
+           521,747      cpu_core/branch-misses/                                                 ( +-  1.82% )
+
+       0.019323230 +- 0.000234384 seconds time elapsed  ( +-  1.21% )
+

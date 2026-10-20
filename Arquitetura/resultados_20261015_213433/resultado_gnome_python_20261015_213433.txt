@@ -1,0 +1,27 @@
+### ALVO_BARRA: GnomeSort_Python ###
+
+ Performance counter stats for './gnome_python.sh' (10 runs):
+
+          1,191.22 msec task-clock:u                                                            ( +-  0.17% )
+             1,844      page-faults                                                             ( +-  0.07% )
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+     4,516,402,702      cpu_core/cycles/                                                        ( +-  0.17% )
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+    24,393,025,711      cpu_core/instructions/                                                  ( +-  0.00% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0.00%)
+           259,975      cpu_core/cache-misses/                                                  ( +-  4.77% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0.00%)
+     6,171,716,852      cpu_core/L1-dcache-loads/                                               ( +-  0.00% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+        15,931,566      cpu_core/L1-dcache-load-misses/                                         ( +-  0.70% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0.00%)
+           141,561      cpu_core/LLC-loads/                                                     ( +-  1.48% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0.00%)
+            36,124      cpu_core/LLC-load-misses/                                               ( +-  3.15% )
+     <not counted>      cpu_atom/branches/                                                      (0.00%)
+     3,724,395,555      cpu_core/branches/                                                      ( +-  0.00% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0.00%)
+           488,779      cpu_core/branch-misses/                                                 ( +-  2.14% )
+
+       1.191938503 +- 0.001977137 seconds time elapsed  ( +-  0.17% )
+

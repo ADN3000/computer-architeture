@@ -1,0 +1,13 @@
+### ALVO_BARRA: merge_python ###
+
+ Performance counter stats for './merge_python.sh' (2 runs):
+
+             20.39 msec task-clock:u                                                            ( +- 10.65% )
+             1,259      page-faults                                                             ( +-  0.12% )
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+        72,688,224      cpu_core/cycles/                                                        ( +-  5.04% )
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+       191,349,097      cpu_core/instructions/                                                  ( +-  2.45% )
+
+       0.021074185 +- 0.002335824 seconds time elapsed  ( +- 11.08% )
+
