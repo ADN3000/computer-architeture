@@ -43,7 +43,7 @@ def merge_sort(vetor, auxiliar, inicio, fim):
 
 
 def main():
-    # Copia os dados fixos para preservar o vetor original.
+    # Usa a lista fixa do módulo; a ordenação modifica a lista em memória.
     vetor = VETOR
 
     # Aloca a memória auxiliar antes de iniciar a ordenação.

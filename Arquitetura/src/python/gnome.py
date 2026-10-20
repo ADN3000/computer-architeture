@@ -19,7 +19,7 @@ def gnome_sort(vetor):
 
 
 def main():
-    # Copia os dados para preservar o vetor original do módulo.
+    # Usa a lista fixa do módulo; a ordenação modifica a lista em memória.
     vetor = VETOR
 
     gnome_sort(vetor)

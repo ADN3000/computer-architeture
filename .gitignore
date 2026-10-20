@@ -1,0 +1,24 @@
+# Melhorias locais — caches e artefatos de compilação
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.class
+*.o
+*.a
+*.so
+/Arquitetura/build/
+/Arquitetura/bin/
+
+# Resultados e gráficos novos gerados localmente.
+# Arquivos que já estão versionados continuam no Git.
+/Arquitetura/resultados*/
+/Arquitetura/benchmark/resultados*/
+/Arquitetura/benchmark/Grafico_*.pdf
+
+# Configurações e temporários de editores/sistema
+.env
+.DS_Store
+.idea/
+.vscode/
+*.log

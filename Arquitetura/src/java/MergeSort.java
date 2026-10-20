@@ -51,7 +51,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        // Copia os dados fixos antes de iniciar a ordenação.
+        // Usa o vetor fixo da classe; a ordenação modifica o array em memória.
         int[] vetor = VetorDados.VALORES;
 
         // Reserva o vetor auxiliar antes da ordenação.

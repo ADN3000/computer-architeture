@@ -58,7 +58,7 @@ check_dependencies() {
     echo "=== Verificando Dependências ==="
 
     if [ "$APENAS_GRAFICOS" = false ]; then
-        if ! /usr/bin/sudo.ws -v; then
+        if ! sudo -v; then
             echo "[ERRO] Privilégios de superusuário (sudo) são necessários para rodar o perf."
             exit 1
         fi
@@ -603,7 +603,7 @@ for dir in "${ALVOS[@]}"; do
             
             echo "### ALVO_BARRA: $NOME_BARRA ###" >> "$ARQUIVO_SAIDA"
             
-            /usr/bin/sudo.ws perf stat -r "$NUM_RUNS" -e "$EVENTOS" "$app" 2>> "$ARQUIVO_SAIDA"
+            sudo perf stat -r "$NUM_RUNS" -e "$EVENTOS" "$app" 2>> "$ARQUIVO_SAIDA"
             ARQUIVO_CRIADO=true
         fi
     done

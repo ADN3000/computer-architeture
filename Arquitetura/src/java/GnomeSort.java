@@ -1,8 +1,8 @@
 public class GnomeSort {
 
     public static void main(String[] args) {
-        // Copia os valores fixos para preservar o vetor original.
-       int[] vetor = VetorDados.VALORES;
+        // Usa o vetor fixo da classe; a ordenação modifica o array em memória.
+        int[] vetor = VetorDados.VALORES;
 
         int indice = 0;
 
