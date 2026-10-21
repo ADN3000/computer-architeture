@@ -1,7 +1,0 @@
-VERIFICAÇÃO DA OPÇÃO -Of
-Thu Oct 15 09:18:20 PM UTC 2026
-gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
-
-Comando executado: gcc -Of src/c/gnome.c -o /tmp/gnome_of
-cc1: error: argument to ‘-O’ should be a non-negative integer, ‘g’, ‘s’, ‘z’ or ‘fast’
-Código de saída: 1

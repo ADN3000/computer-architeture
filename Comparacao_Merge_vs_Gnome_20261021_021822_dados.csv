@@ -1,0 +1,193 @@
+algoritmo;implementacao;metrica;nucleo;valor;desvio_abs
+Merge;C -O0;Tempo de Execução (ms);Total;0,87;0,005655
+Merge;C -O0;Ciclos de CPU;P-Core;3,24666e+06;19155,3
+Merge;C -O0;Instruções Executadas;P-Core;5,55813e+06;21676,7
+Merge;C -O0;Instruções por Ciclo (IPC);P-Core;1,71195;0,0167771
+Merge;C -O0;Branches (Total);P-Core;619245;3901,24
+Merge;C -O0;Branch Misses;P-Core;49285;137,998
+Merge;C -O0;L1 Cache Loads;P-Core;2,14963e+06;5374,08
+Merge;C -O0;LLC Loads;P-Core;1922;99,944
+Merge;C -O0;L1 Cache Misses;P-Core;5886;151,27
+Merge;C -O0;LLC Misses;P-Core;216;77,976
+Merge;C -O0;Cache Misses (Geral);P-Core;2310;485,1
+Merge;C -O0;Page Faults;Total;70;0,413
+Merge;C -O1;Tempo de Execução (ms);Total;0,63;0,007308
+Merge;C -O1;Ciclos de CPU;P-Core;2,36373e+06;25055,6
+Merge;C -O1;Instruções Executadas;P-Core;2,96141e+06;16880
+Merge;C -O1;Instruções por Ciclo (IPC);P-Core;1,25285;0,0204215
+Merge;C -O1;Branches (Total);P-Core;591674;3076,7
+Merge;C -O1;Branch Misses;P-Core;49763;149,289
+Merge;C -O1;L1 Cache Loads;P-Core;483614;4110,72
+Merge;C -O1;LLC Loads;P-Core;1823;67,2687
+Merge;C -O1;L1 Cache Misses;P-Core;6051;137,963
+Merge;C -O1;LLC Misses;P-Core;157;85,1882
+Merge;C -O1;Cache Misses (Geral);P-Core;1973;558,951
+Merge;C -O1;Page Faults;Total;70;0,427
+Merge;C -O2;Tempo de Execução (ms);Total;0,6;0,00288
+Merge;C -O2;Ciclos de CPU;P-Core;2,23769e+06;10740,9
+Merge;C -O2;Instruções Executadas;P-Core;2,7749e+06;3329,88
+Merge;C -O2;Instruções por Ciclo (IPC);P-Core;1,24008;0,00744045
+Merge;C -O2;Branches (Total);P-Core;535887;535,887
+Merge;C -O2;Branch Misses;P-Core;49578;203,27
+Merge;C -O2;L1 Cache Loads;P-Core;472460;755,936
+Merge;C -O2;LLC Loads;P-Core;1730;34,6
+Merge;C -O2;L1 Cache Misses;P-Core;5412;59,532
+Merge;C -O2;LLC Misses;P-Core;150;55,89
+Merge;C -O2;Cache Misses (Geral);P-Core;1806;257,536
+Merge;C -O2;Page Faults;Total;70;0,448
+Merge;C -O3;Tempo de Execução (ms);Total;0,61;0,006466
+Merge;C -O3;Ciclos de CPU;P-Core;2,27414e+06;22513,9
+Merge;C -O3;Instruções Executadas;P-Core;2,62304e+06;15213,6
+Merge;C -O3;Instruções por Ciclo (IPC);P-Core;1,15342;0,0181087
+Merge;C -O3;Branches (Total);P-Core;507563;2791,6
+Merge;C -O3;Branch Misses;P-Core;49886;438,997
+Merge;C -O3;L1 Cache Loads;P-Core;426026;3749,03
+Merge;C -O3;LLC Loads;P-Core;1804;65,846
+Merge;C -O3;L1 Cache Misses;P-Core;5567;103,546
+Merge;C -O3;LLC Misses;P-Core;151;57,8934
+Merge;C -O3;Cache Misses (Geral);P-Core;1931;328,656
+Merge;C -O3;Page Faults;Total;70;0,371
+Merge;C -Os;Tempo de Execução (ms);Total;0,68;0,006528
+Merge;C -Os;Ciclos de CPU;P-Core;2,48654e+06;17903,1
+Merge;C -Os;Instruções Executadas;P-Core;2,98391e+06;15814,7
+Merge;C -Os;Instruções por Ciclo (IPC);P-Core;1,20003;0,0150003
+Merge;C -Os;Branches (Total);P-Core;764334;2904,47
+Merge;C -Os;Branch Misses;P-Core;49132;83,5244
+Merge;C -Os;L1 Cache Loads;P-Core;488523;3859,33
+Merge;C -Os;LLC Loads;P-Core;1843;77,7746
+Merge;C -Os;L1 Cache Misses;P-Core;5576;145,534
+Merge;C -Os;LLC Misses;P-Core;166;56,5894
+Merge;C -Os;Cache Misses (Geral);P-Core;1841;336,903
+Merge;C -Os;Page Faults;Total;70;0,406
+Merge;C -Of;Tempo de Execução (ms);Total;0,62;0,004154
+Merge;C -Of;Ciclos de CPU;P-Core;2,31248e+06;15262,4
+Merge;C -Of;Instruções Executadas;P-Core;2,62549e+06;9714,32
+Merge;C -Of;Instruções por Ciclo (IPC);P-Core;1,13536;0,0116942
+Merge;C -Of;Branches (Total);P-Core;507617;1624,37
+Merge;C -Of;Branch Misses;P-Core;50441;206,808
+Merge;C -Of;L1 Cache Loads;P-Core;426516;2473,79
+Merge;C -Of;LLC Loads;P-Core;1843;58,4231
+Merge;C -Of;L1 Cache Misses;P-Core;5699;73,5171
+Merge;C -Of;LLC Misses;P-Core;163;72,4698
+Merge;C -Of;Cache Misses (Geral);P-Core;2158;452,748
+Merge;C -Of;Page Faults;Total;70;0,392
+Merge;Java;Tempo de Execução (ms);Total;25,42;0,447392
+Merge;Java;Ciclos de CPU;P-Core;9,55274e+07;1,59531e+06
+Merge;Java;Instruções Executadas;P-Core;1,37425e+08;2,07512e+06
+Merge;Java;Instruções por Ciclo (IPC);P-Core;1,4386;0,0457474
+Merge;Java;Branches (Total);P-Core;2,66924e+07;443093
+Merge;Java;Branch Misses;P-Core;597523;11352,9
+Merge;Java;L1 Cache Loads;P-Core;3,93905e+07;712968
+Merge;Java;LLC Loads;P-Core;254964;1657,27
+Merge;Java;L1 Cache Misses;P-Core;837765;24462,7
+Merge;Java;LLC Misses;P-Core;179583;4345,91
+Merge;Java;Cache Misses (Geral);P-Core;966318;37686,4
+Merge;Java;Page Faults;Total;5616;36,504
+Merge;Python;Tempo de Execução (ms);Total;24,9;0,15438
+Merge;Python;Ciclos de CPU;P-Core;9,43422e+07;575487
+Merge;Python;Instruções Executadas;P-Core;2,68152e+08;536304
+Merge;Python;Instruções por Ciclo (IPC);P-Core;2,84234;0,0230229
+Merge;Python;Branches (Total);P-Core;5,03132e+07;70438,5
+Merge;Python;Branch Misses;P-Core;504208;7815,22
+Merge;Python;L1 Cache Loads;P-Core;7,28695e+07;94730,4
+Merge;Python;LLC Loads;P-Core;119208;1168,24
+Merge;Python;L1 Cache Misses;P-Core;961343;2211,09
+Merge;Python;LLC Misses;P-Core;21294;1475,67
+Merge;Python;Cache Misses (Geral);P-Core;343381;24380,1
+Merge;Python;Page Faults;Total;3287;0,3287
+Gnome;C -O0;Tempo de Execução (ms);Total;36,57;0,058512
+Gnome;C -O0;Ciclos de CPU;P-Core;1,38589e+08;221742
+Gnome;C -O0;Instruções Executadas;P-Core;8,24064e+08;0
+Gnome;C -O0;Instruções por Ciclo (IPC);P-Core;5,9461;0,00951376
+Gnome;C -O0;Branches (Total);P-Core;8,13542e+07;8135,42
+Gnome;C -O0;Branch Misses;P-Core;19584;225,216
+Gnome;C -O0;L1 Cache Loads;P-Core;3,5956e+08;0
+Gnome;C -O0;LLC Loads;P-Core;3858;119,212
+Gnome;C -O0;L1 Cache Misses;P-Core;15762;250,616
+Gnome;C -O0;LLC Misses;P-Core;1731;128,613
+Gnome;C -O0;Cache Misses (Geral);P-Core;15624;1196,8
+Gnome;C -O0;Page Faults;Total;64;0,48
+Gnome;C -O1;Tempo de Execução (ms);Total;12,1;0,00726
+Gnome;C -O1;Ciclos de CPU;P-Core;4,58308e+07;27498,5
+Gnome;C -O1;Instruções Executadas;P-Core;3,13869e+08;31386,9
+Gnome;C -O1;Instruções por Ciclo (IPC);P-Core;6,84842;0,00479389
+Gnome;C -O1;Branches (Total);P-Core;8,12982e+07;0
+Gnome;C -O1;Branch Misses;P-Core;19273;136,838
+Gnome;C -O1;L1 Cache Loads;P-Core;4,65849e+07;4658,49
+Gnome;C -O1;LLC Loads;P-Core;2773;96,7777
+Gnome;C -O1;L1 Cache Misses;P-Core;9841;244,057
+Gnome;C -O1;LLC Misses;P-Core;1371;125,995
+Gnome;C -O1;Cache Misses (Geral);P-Core;12944;1038,11
+Gnome;C -O1;Page Faults;Total;63;0,3906
+Gnome;C -O2;Tempo de Execução (ms);Total;73,39;0,022017
+Gnome;C -O2;Ciclos de CPU;P-Core;2,78176e+08;83452,8
+Gnome;C -O2;Instruções Executadas;P-Core;3,02942e+08;30294,2
+Gnome;C -O2;Instruções por Ciclo (IPC);P-Core;1,08903;0,000435612
+Gnome;C -O2;Branches (Total);P-Core;6,982e+07;6982
+Gnome;C -O2;Branch Misses;P-Core;20137;233,589
+Gnome;C -O2;L1 Cache Loads;P-Core;2,35573e+07;7067,18
+Gnome;C -O2;LLC Loads;P-Core;5527;189,023
+Gnome;C -O2;L1 Cache Misses;P-Core;29000;504,6
+Gnome;C -O2;LLC Misses;P-Core;2343;144,797
+Gnome;C -O2;Cache Misses (Geral);P-Core;21582;1571,17
+Gnome;C -O2;Page Faults;Total;64;0,3648
+Gnome;C -O3;Tempo de Execução (ms);Total;83,19;0,024957
+Gnome;C -O3;Ciclos de CPU;P-Core;3,15331e+08;94599,3
+Gnome;C -O3;Instruções Executadas;P-Core;3,14597e+08;31459,7
+Gnome;C -O3;Instruções por Ciclo (IPC);P-Core;0,997671;0,000399068
+Gnome;C -O3;Branches (Total);P-Core;4,66491e+07;4664,91
+Gnome;C -O3;Branch Misses;P-Core;20510;141,519
+Gnome;C -O3;L1 Cache Loads;P-Core;2,35712e+07;4714,25
+Gnome;C -O3;LLC Loads;P-Core;4934;162,329
+Gnome;C -O3;L1 Cache Misses;P-Core;34293;768,163
+Gnome;C -O3;LLC Misses;P-Core;1440;167,328
+Gnome;C -O3;Cache Misses (Geral);P-Core;12723;1386,81
+Gnome;C -O3;Page Faults;Total;63;0,5103
+Gnome;C -Os;Tempo de Execução (ms);Total;12,79;0,006395
+Gnome;C -Os;Ciclos de CPU;P-Core;4,84456e+07;19378,3
+Gnome;C -Os;Instruções Executadas;P-Core;3,25477e+08;32547,7
+Gnome;C -Os;Instruções por Ciclo (IPC);P-Core;6,71839;0,0033592
+Gnome;C -Os;Branches (Total);P-Core;9,28944e+07;0
+Gnome;C -Os;Branch Misses;P-Core;18945;153,454
+Gnome;C -Os;L1 Cache Loads;P-Core;4,65881e+07;4658,81
+Gnome;C -Os;LLC Loads;P-Core;2475;80,9325
+Gnome;C -Os;L1 Cache Misses;P-Core;9855;207,94
+Gnome;C -Os;LLC Misses;P-Core;256;70,2208
+Gnome;C -Os;Cache Misses (Geral);P-Core;3426;432,019
+Gnome;C -Os;Page Faults;Total;63;0,3591
+Gnome;C -Of;Tempo de Execução (ms);Total;83,08;0,033232
+Gnome;C -Of;Ciclos de CPU;P-Core;3,14944e+08;125978
+Gnome;C -Of;Instruções Executadas;P-Core;3,14564e+08;0
+Gnome;C -Of;Instruções por Ciclo (IPC);P-Core;0,998791;0,000399517
+Gnome;C -Of;Branches (Total);P-Core;4,66431e+07;0
+Gnome;C -Of;Branch Misses;P-Core;20658;134,277
+Gnome;C -Of;L1 Cache Loads;P-Core;2,35639e+07;2356,39
+Gnome;C -Of;LLC Loads;P-Core;4575;183,915
+Gnome;C -Of;L1 Cache Misses;P-Core;30899;825,003
+Gnome;C -Of;LLC Misses;P-Core;1021;211,653
+Gnome;C -Of;Cache Misses (Geral);P-Core;9362;1703,88
+Gnome;C -Of;Page Faults;Total;64;0,4288
+Gnome;Java;Tempo de Execução (ms);Total;46,07;0,331704
+Gnome;Java;Ciclos de CPU;P-Core;1,73714e+08;1,00754e+06
+Gnome;Java;Instruções Executadas;P-Core;5,34909e+08;2,40709e+06
+Gnome;Java;Instruções por Ciclo (IPC);P-Core;3,07925;0,0317163
+Gnome;Java;Branches (Total);P-Core;1,51598e+08;348676
+Gnome;Java;Branch Misses;P-Core;494176;1284,86
+Gnome;Java;L1 Cache Loads;P-Core;1,31443e+08;880671
+Gnome;Java;LLC Loads;P-Core;244369;537,612
+Gnome;Java;L1 Cache Misses;P-Core;594760;1962,71
+Gnome;Java;LLC Misses;P-Core;171658;2592,04
+Gnome;Java;Cache Misses (Geral);P-Core;892391;25611,6
+Gnome;Java;Page Faults;Total;5095;1,019
+Gnome;Python;Tempo de Execução (ms);Total;1201,17;4,80468
+Gnome;Python;Ciclos de CPU;P-Core;4,55375e+09;1,8215e+07
+Gnome;Python;Instruções Executadas;P-Core;2,45835e+10;0
+Gnome;Python;Instruções por Ciclo (IPC);P-Core;5,39852;0,0215941
+Gnome;Python;Branches (Total);P-Core;3,75171e+09;0
+Gnome;Python;Branch Misses;P-Core;475589;9892,25
+Gnome;Python;L1 Cache Loads;P-Core;6,23573e+09;0
+Gnome;Python;LLC Loads;P-Core;176087;3433,7
+Gnome;Python;L1 Cache Misses;P-Core;2,26659e+07;138262
+Gnome;Python;LLC Misses;P-Core;27365;892,099
+Gnome;Python;Cache Misses (Geral);P-Core;417848;12869,7
+Gnome;Python;Page Faults;Total;3280;0,656
