@@ -1,0 +1,216 @@
+### ALVO_BARRA: MergeSort ###
+
+ Performance counter stats for './mergesort_java.sh' (10 runs):
+
+             25,42 msec task-clock:u                                                            ( +-  1,76% )
+             5.616      page-faults                                                             ( +-  0,65% )
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+        95.527.441      cpu_core/cycles/                                                        ( +-  1,67% )
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+       137.425.464      cpu_core/instructions/                                                  ( +-  1,51% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0,00%)
+           966.318      cpu_core/cache-misses/                                                  ( +-  3,90% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        39.390.507      cpu_core/L1-dcache-loads/                                               ( +-  1,81% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           837.765      cpu_core/L1-dcache-load-misses/                                         ( +-  2,92% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0,00%)
+           254.964      cpu_core/LLC-loads/                                                     ( +-  0,65% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0,00%)
+           179.583      cpu_core/LLC-load-misses/                                               ( +-  2,42% )
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+        26.692.363      cpu_core/branches/                                                      ( +-  1,66% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+           597.523      cpu_core/branch-misses/                                                 ( +-  1,90% )
+
+       0,027280127 +- 0,000442065 seconds time elapsed  ( +-  1,62% )
+
+### ALVO_BARRA: mergesort_O0 ###
+
+ Performance counter stats for './mergesort_O0' (10 runs):
+
+              0,87 msec task-clock:u                                                            ( +-  0,65% )
+                70      page-faults                                                             ( +-  0,59% )
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+         3.246.663      cpu_core/cycles/                                                        ( +-  0,59% )
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+         5.558.128      cpu_core/instructions/                                                  ( +-  0,39% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0,00%)
+             2.310      cpu_core/cache-misses/                                                  ( +- 21,00% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+         2.149.631      cpu_core/L1-dcache-loads/                                               ( +-  0,25% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             5.886      cpu_core/L1-dcache-load-misses/                                         ( +-  2,57% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0,00%)
+             1.922      cpu_core/LLC-loads/                                                     ( +-  5,20% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0,00%)
+               216      cpu_core/LLC-load-misses/                                               ( +- 36,10% )
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+           619.245      cpu_core/branches/                                                      ( +-  0,63% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            49.285      cpu_core/branch-misses/                                                 ( +-  0,28% )
+
+       0,001056404 +- 0,000012753 seconds time elapsed  ( +-  1,21% )
+
+### ALVO_BARRA: mergesort_O1 ###
+
+ Performance counter stats for './mergesort_O1' (10 runs):
+
+              0,63 msec task-clock:u                                                            ( +-  1,16% )
+                70      page-faults                                                             ( +-  0,61% )
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+         2.363.732      cpu_core/cycles/                                                        ( +-  1,06% )
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+         2.961.407      cpu_core/instructions/                                                  ( +-  0,57% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0,00%)
+             1.973      cpu_core/cache-misses/                                                  ( +- 28,33% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+           483.614      cpu_core/L1-dcache-loads/                                               ( +-  0,85% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             6.051      cpu_core/L1-dcache-load-misses/                                         ( +-  2,28% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0,00%)
+             1.823      cpu_core/LLC-loads/                                                     ( +-  3,69% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0,00%)
+               157      cpu_core/LLC-load-misses/                                               ( +- 54,26% )
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+           591.674      cpu_core/branches/                                                      ( +-  0,52% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            49.763      cpu_core/branch-misses/                                                 ( +-  0,30% )
+
+       0,000819808 +- 0,000015078 seconds time elapsed  ( +-  1,84% )
+
+### ALVO_BARRA: mergesort_O2 ###
+
+ Performance counter stats for './mergesort_O2' (10 runs):
+
+              0,60 msec task-clock:u                                                            ( +-  0,48% )
+                70      page-faults                                                             ( +-  0,64% )
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+         2.237.688      cpu_core/cycles/                                                        ( +-  0,48% )
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+         2.774.901      cpu_core/instructions/                                                  ( +-  0,12% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0,00%)
+             1.806      cpu_core/cache-misses/                                                  ( +- 14,26% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+           472.460      cpu_core/L1-dcache-loads/                                               ( +-  0,16% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             5.412      cpu_core/L1-dcache-load-misses/                                         ( +-  1,10% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0,00%)
+             1.730      cpu_core/LLC-loads/                                                     ( +-  2,00% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0,00%)
+               150      cpu_core/LLC-load-misses/                                               ( +- 37,26% )
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+           535.887      cpu_core/branches/                                                      ( +-  0,10% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            49.578      cpu_core/branch-misses/                                                 ( +-  0,41% )
+
+       0,000795117 +- 0,000012438 seconds time elapsed  ( +-  1,56% )
+
+### ALVO_BARRA: mergesort_O3 ###
+
+ Performance counter stats for './mergesort_O3' (10 runs):
+
+              0,61 msec task-clock:u                                                            ( +-  1,06% )
+                70      page-faults                                                             ( +-  0,53% )
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+         2.274.135      cpu_core/cycles/                                                        ( +-  0,99% )
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+         2.623.040      cpu_core/instructions/                                                  ( +-  0,58% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0,00%)
+             1.931      cpu_core/cache-misses/                                                  ( +- 17,02% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+           426.026      cpu_core/L1-dcache-loads/                                               ( +-  0,88% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             5.567      cpu_core/L1-dcache-load-misses/                                         ( +-  1,86% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0,00%)
+             1.804      cpu_core/LLC-loads/                                                     ( +-  3,65% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0,00%)
+               151      cpu_core/LLC-load-misses/                                               ( +- 38,34% )
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+           507.563      cpu_core/branches/                                                      ( +-  0,55% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            49.886      cpu_core/branch-misses/                                                 ( +-  0,88% )
+
+       0,000802719 +- 0,000014484 seconds time elapsed  ( +-  1,80% )
+
+### ALVO_BARRA: mergesort_Of ###
+
+ Performance counter stats for './mergesort_Of' (10 runs):
+
+              0,62 msec task-clock:u                                                            ( +-  0,67% )
+                70      page-faults                                                             ( +-  0,56% )
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+         2.312.481      cpu_core/cycles/                                                        ( +-  0,66% )
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+         2.625.492      cpu_core/instructions/                                                  ( +-  0,37% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0,00%)
+             2.158      cpu_core/cache-misses/                                                  ( +- 20,98% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+           426.516      cpu_core/L1-dcache-loads/                                               ( +-  0,58% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             5.699      cpu_core/L1-dcache-load-misses/                                         ( +-  1,29% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0,00%)
+             1.843      cpu_core/LLC-loads/                                                     ( +-  3,17% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0,00%)
+               163      cpu_core/LLC-load-misses/                                               ( +- 44,46% )
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+           507.617      cpu_core/branches/                                                      ( +-  0,32% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            50.441      cpu_core/branch-misses/                                                 ( +-  0,41% )
+
+       0,000818233 +- 0,000015849 seconds time elapsed  ( +-  1,94% )
+
+### ALVO_BARRA: mergesort_Os ###
+
+ Performance counter stats for './mergesort_Os' (10 runs):
+
+              0,68 msec task-clock:u                                                            ( +-  0,96% )
+                70      page-faults                                                             ( +-  0,58% )
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+         2.486.536      cpu_core/cycles/                                                        ( +-  0,72% )
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+         2.983.907      cpu_core/instructions/                                                  ( +-  0,53% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0,00%)
+             1.841      cpu_core/cache-misses/                                                  ( +- 18,30% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+           488.523      cpu_core/L1-dcache-loads/                                               ( +-  0,79% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             5.576      cpu_core/L1-dcache-load-misses/                                         ( +-  2,61% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0,00%)
+             1.843      cpu_core/LLC-loads/                                                     ( +-  4,22% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0,00%)
+               166      cpu_core/LLC-load-misses/                                               ( +- 34,09% )
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+           764.334      cpu_core/branches/                                                      ( +-  0,38% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            49.132      cpu_core/branch-misses/                                                 ( +-  0,17% )
+
+       0,000881113 +- 0,000017081 seconds time elapsed  ( +-  1,94% )
+
+### ALVO_BARRA: mergesort.py ###
+
+ Performance counter stats for './mergesort.py' (10 runs):
+
+             24,90 msec task-clock:u                                                            ( +-  0,62% )
+             3.287      page-faults                                                             ( +-  0,01% )
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+        94.342.181      cpu_core/cycles/                                                        ( +-  0,61% )
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+       268.152.145      cpu_core/instructions/                                                  ( +-  0,20% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0,00%)
+           343.381      cpu_core/cache-misses/                                                  ( +-  7,10% )
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        72.869.543      cpu_core/L1-dcache-loads/                                               ( +-  0,13% )
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           961.343      cpu_core/L1-dcache-load-misses/                                         ( +-  0,23% )
+     <not counted>      cpu_atom/LLC-loads/                                                     (0,00%)
+           119.208      cpu_core/LLC-loads/                                                     ( +-  0,98% )
+     <not counted>      cpu_atom/LLC-load-misses/                                               (0,00%)
+            21.294      cpu_core/LLC-load-misses/                                               ( +-  6,93% )
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+        50.313.189      cpu_core/branches/                                                      ( +-  0,14% )
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+           504.208      cpu_core/branch-misses/                                                 ( +-  1,55% )
+
+       0,025436893 +- 0,000173745 seconds time elapsed  ( +-  0,68% )
+
