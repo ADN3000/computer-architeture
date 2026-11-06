@@ -44,6 +44,7 @@ ORDEM = ["task-clock:u", "cycles", "instructions", "ipc", "branches", "branch-mi
 CORES = ["#2ca02c", "#d62728", "#1f77b4", "#ff7f0e"]
 ORDEM_C = ["O0", "O1", "O2", "O3", "Os", "Of", "Ofast"]
 NUCLEOS = ["Total", "P-Core", "E-Core"]
+GERAR_PAGINAS_EXTRAS = False
 
 
 def classifica(rotulo):
@@ -262,7 +263,7 @@ def main():
                 ax.legend(fontsize=9, loc="upper right")
 
         # ---- pagina 2: razao B/A em TODAS as metricas (so com 2 algoritmos) ----
-        if n_alg == 2:
+        if GERAR_PAGINAS_EXTRAS and n_alg == 2:
             (na, da), (nb, db) = algs
             ordem_r = METS3 + [m for m in metricas if m not in METS3]
             rows_r = (len(ordem_r) + 1) // 2
@@ -285,7 +286,7 @@ def main():
 
         # ---- pagina 3: efeito das otimizacoes do gcc (ganho em relacao ao -O0) ----
         c_impls = [i for i in impls if i.startswith("C -") and i != "C -O0"]
-        if "C -O0" in impls and c_impls and METS3:
+        if GERAR_PAGINAS_EXTRAS and "C -O0" in impls and c_impls and METS3:
             fig, axs = plt.subplots(1, len(METS3), figsize=(7 * len(METS3), 5.5), squeeze=False)
             fig.suptitle("Ganho de cada otimização em relação ao -O0 (>1: melhor que -O0, <1: pior)",
                          fontsize=16, fontweight="bold")
@@ -307,7 +308,7 @@ def main():
         # ---- pagina 4: Java e Python em relacao ao melhor C ----
         outras = [i for i in impls if not i.startswith("C -")]
         cs = [i for i in impls if i.startswith("C -")]
-        if outras and cs and METS3:
+        if GERAR_PAGINAS_EXTRAS and outras and cs and METS3:
             fig, axs = plt.subplots(1, len(METS3), figsize=(7 * len(METS3), 5.5), squeeze=False)
             fig.suptitle("Java e Python em relação ao melhor nível de C (quantas vezes maior)",
                          fontsize=16, fontweight="bold")
