@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or its experimental materials, please cite the associated academic work and acknowledge the repository."
+type: software
+title: "Comparative Performance Analysis of Gnome Sort and Merge Sort Algorithms in C, Python, and Java"
+authors:
+  - family-names: Vilhanueva
+    given-names: Marcos Pinheiro
+  - family-names: Cordeiro
+    given-names: Anderson Moreira
+  - family-names: Ajayi
+    given-names: Adekola Alex
+repository-code: "https://github.com/ADN3000/computer-architeture"
+abstract: "Source code, benchmarking scripts, experimental input data, environment information, and selected results associated with a comparative performance study of Gnome Sort and Merge Sort implemented in C, Python 3, and Java."
